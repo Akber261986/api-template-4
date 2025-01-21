@@ -12,7 +12,7 @@ const client = createClient({
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
   token: process.env.SANITY_API_TOKEN,
-  apiVersion: '2025-01-21',
+  apiVersion: '2025-01-14',
   useCdn: false,
 });
 
@@ -37,7 +37,7 @@ async function importData() {
   try {
     console.log('Fetching Product Data From API ...');
 
-    const response = await axios.get("https://my-custom-api-rs5h.vercel.app/api/products")
+    const response = await axios.get("https://api-template-4.vercel.app/api/product")
     const products = response.data.products;
 
     for (const item of products) {

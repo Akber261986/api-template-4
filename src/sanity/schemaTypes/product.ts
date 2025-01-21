@@ -9,7 +9,7 @@ export default defineType({
       name: "name",
       type: "string",
       title: "Name",
-      validation: (Rule) => Rule.required().min(3).max(50),
+      validation: (Rule) => Rule.required().min(3).max(100),
     },
     {
       name: "description",
@@ -29,9 +29,9 @@ export default defineType({
       title: "Category",
       options: {
         list: [
-          { title: "Electronics", value: "electronics" },
-          { title: "Fashion", value: "fashion" },
-          { title: "Home", value: "home" },
+          { title: "Chair", value: "Chair" },
+          { title: "Sofa", value: "Sofa" },
+          { title: "Home", value: "Home" },
         ],
       },
     },

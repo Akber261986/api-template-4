@@ -2,6 +2,7 @@ import { client } from "@/sanity/lib/client";
 import Image from "next/image";
 
 const fetchData = async () => {
+
   const quary = `*[_type == "product" ]{
     _id,
     name,
