@@ -7,30 +7,6 @@
         "price": 1200,
         "description": "A sleek outdoor chair with natural wooden elements and a modern look.",
         "category": "Chair"
-      },
-      {
-        "id": "2",
-        "name": "Armchair Tortuga",
-        "imagePath": "https://api-template-4.vercel.app/product/Chair (2).png",
-        "price": 850,
-        "description": "An elegant armchair with plush cushions and a curved design for comfort.",
-        "category": "Home"
-      },
-      {
-        "id": "3",
-        "name": "Uchiwa Quilted Lounge Chair",
-        "imagePath": "https://api-template-4.vercel.app/product/Chair (3).png",
-        "price": 1600,
-        "description": "A spacious lounge chair with a quilted back and soft cushioning.",
-        "category": "Chair"
-      },
-      {
-        "id": "4",
-        "name": "Stylish Golden Metal Legs Mint Blue Fabric Velvet Sofa Leisure Armchair",
-        "imagePath": "https://api-template-4.vercel.app/product/Chair (4).png",
-        "price": 780,
-        "description": "A luxurious armchair with velvet fabric and golden metal legs.",
-        "category": "Sofa"
       }
     ]
   }

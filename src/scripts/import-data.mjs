@@ -54,7 +54,7 @@ async function importData() {
         description: item.description || '',
         price: item.price,
         category: item.category || null,
-        slug: item.name ? item.name.toLowerCase().replace(/\s+/g, '-') : null,
+        slug: item.name,
         image: imageRef
           ? {
               _type: 'image',
