@@ -43,15 +43,5 @@ export default defineType({
         hotspot: true, // Allow cropping and positioning
       },
     },
-    {
-      name: "slug",
-      type: "slug",
-      title: "Slug",
-      options: {
-        source: "name",
-        maxLength: 200,
-        slugify: (input) => input.toLowerCase().replace(/\s+/g, "-").slice(0, 200),
-      },
-    },
   ],
 });
