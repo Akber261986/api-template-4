@@ -1,8 +1,8 @@
 import { defineField, defineType } from "sanity";
 
- const allProducts = defineType({
-  name: "allproducts",
-  title: "All Products",
+ const products = defineType({
+  name: "products",
+  title: "Products",
   type: "document",
   fields: [
     defineField({
@@ -74,4 +74,4 @@ import { defineField, defineType } from "sanity";
   ],
 });
 
-export default allProducts;
+export default products;

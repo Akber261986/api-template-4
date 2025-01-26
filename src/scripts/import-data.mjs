@@ -49,11 +49,18 @@ async function importData() {
       }
 
       const sanityItem = {
-        _type: 'allProduct',
+        _type: 'product',
         name: item.name,
         description: item.description || '',
         price: item.price,
+        discountedPrice: item.discountedPrice || [],
+        rating: item.rating || 0,
         category: item.category || null,
+        isSale: item.isSale || false,
+        colors: item.colors || [],
+        tags: item.tags || [],
+        stockLevel: item.stockLevel || 0,
+        productCode: item.productCode || '',
         image: imageRef
           ? {
               _type: 'image',
