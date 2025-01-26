@@ -3,10 +3,17 @@
       {
         "id": "1",
         "name": "Tribu Elio Chair",
-        "imagePath": "https://api-template-4.vercel.app/product/Chair (1).png",
+        "imagePath": "https://api-template-4.vercel.app/product/image (1).png",
         "price": 1200,
+        "discountedPrice": 0,
         "description": "A sleek outdoor chair with natural wooden elements and a modern look.",
-        "category": "Chair"
+        "category": ["featured", "sofa"],
+        "rating": 4.5,
+        "colors": ["#FF9437", "#E60584", "#5E37FF"],
+        "tags": ["outdoor", "wooden", "modern"],
+        "isSale": false,
+        "stockLevel": 10,
+        "productCode": "TRB-ELIO-CHR"
       }
     ]
   }
