@@ -49,7 +49,7 @@ async function importData() {
       }
 
       const sanityItem = {
-        _type: 'product',
+        _type: 'allProduct',
         name: item.name,
         description: item.description || '',
         price: item.price,
