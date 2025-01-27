@@ -1,8 +1,8 @@
 import { defineField, defineType } from "sanity";
 
- const products = defineType({
-  name: "products",
-  title: "Products",
+ const product = defineType({
+  name: "product",
+  title: "Product",
   type: "document",
   fields: [
     defineField({
@@ -21,7 +21,7 @@ import { defineField, defineType } from "sanity";
       type: "number",
     }),
     defineField({
-      name: "productcode",
+      name: "productCode",
       title: "Product Code",
       type: "string",
     }),
@@ -59,7 +59,7 @@ import { defineField, defineType } from "sanity";
       of: [{ type: "string" }],
     }),
     defineField({
-      name: "stocklevel",
+      name: "stockLevel",
       title: "Stock Level",
       type: "number",
     }),
@@ -74,4 +74,4 @@ import { defineField, defineType } from "sanity";
   ],
 });
 
-export default products;
+export default product;
